@@ -13,7 +13,7 @@
 <body>
 
   <header>
-    <a class="header-logo" href="">LOGO</a>
+    <a class="header-logo">LOGO</a>
     <nav>
       <ul>
         <li>
@@ -67,12 +67,14 @@
       </section>
     </section>
     <section>
-      <ul>
-        <li class="li-1">Servicio uno</li>
-        <li class="li-2">Servicio dos</li>
-        <li class="li-3">Servicio tres</li>
-        <li class="li-4">Servicio cuatro</li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a>Servicio uno</a></li>
+          <li><a>Servicio dos</a></li>
+          <li><a>Servicio tres</a></li>
+          <li><a>Servicio cuatro</a></li>
+        </ul>
+      </nav>
     </section>
     <section>
       <h1 class="section-h1-portafolio">PORTAFOLIO</h1>
@@ -102,12 +104,12 @@
         consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed
         commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.
       </p>
+      <form action="GET" class="frm-contact">
+        <input class="frm-name" type="text" placeholder="Nombre y apellido" name="name" required>
+        <input class="frm-detalle" type="textarea" placeholder="Detalle" name="detalle" required cols="30" rows="10">
+        <button class="frm-enviar">Enviar</button>
+      </form>
     </section>
-    <form action="GET" class="frm">
-      <input class="nombre" type="text" placeholder="Nombre y apellido" name="name" required>
-      <input class="detalle" type="textarea" placeholder="Detalle" name="detalle" required cols="30" rows="10">
-      <button>Enviar</button>
-    </form>
   </main>
   <footer>
     <p>Todos los derechos reservados</p>
