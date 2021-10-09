@@ -41,10 +41,21 @@ section {
   margin: 50px 30px;
 }
 section h1{
-  color: #3b06d2;
   text-align: justify;
   margin-bottom: 20px;
   font-weight: bold;
+}
+.section-h1-home{
+  color: #3b06d2;
+}
+.section-h1-servicio{
+  color: #D206B2;
+}
+.section-h1-portafolio{
+  color: #AAD206;
+}
+.section-h1-contacto{
+  color: #06D2C6;
 }
 section p{
   text-align: left;
@@ -75,7 +86,18 @@ ul li {
   display: flex;
   flex-direction: column;
   margin: 5px 30px 90PX;
+}
+.nombre {
+  margin: 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   padding: 10px;
+}
+.detalle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 button {
   background-color: #fff;
