@@ -6,12 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proyecto 1</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
 
-  <head>
-    <a href="">LOGO</a>
+  <header>
+    <a class="header-logo" href="">LOGO</a>
     <nav>
       <ul>
         <li>
@@ -23,26 +25,29 @@
         <li>
           <a href="">Portafolio</a>
         </li>
+        <li>
+          <a href="">Contacto</a>
+        </li>
       </ul>
     </nav>
-  </head>
+  </header>
   <main>
     <section>
-      <h4>HOME</h4>
+      <h1>HOME</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat
         sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis
         consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed
         commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.
       </p>
-      <div>
+      <section>
         <img src="./image/Rectangle 2.png" alt="">
         <img src="./image/Rectangle 3.png" alt="">
         <img src="./image/Rectangle 4.png" alt="">
-      </div>
+      </section>
     </section>
     <section>
-      <h4>SERVICIOS</h4>
+      <h1>SERVICIOS</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat
         sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis
@@ -55,22 +60,22 @@
         consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed
         commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.
       </p>
-      <div>
+      <section>
         <img src="./image/Rectangle 5.png" alt="">
         <img src="./image/Rectangle 6.png" alt="">
         <img src="./image/Rectangle 7.png" alt="">
-      </div>
+      </section>
     </section>
     <section>
       <ul>
-        <li>Servicio uno</li>
-        <li>Servicio dos</li>
-        <li>Servicio tres</li>
-        <li>Servicio cuatro</li>
+        <li class="li-1">Servicio uno</li>
+        <li class="li-2">Servicio dos</li>
+        <li class="li-3">Servicio tres</li>
+        <li class="li-4">Servicio cuatro</li>
       </ul>
     </section>
     <section>
-      <h4>PORTAFOLIO</h4>
+      <h1>PORTAFOLIO</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat
         sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis
@@ -83,28 +88,26 @@
         consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed
         commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.
       </p>
-      <div>
-        <img src="./image/Rectangle 8.png" alt="">
-        <img src="./image/Rectangle 9.png" alt="">
-        <img src="./image/Rectangle 10.png" alt="">
-      </div>
     </section>
     <section>
-      <h4>Contacto</h4>
+      <img src="./image/Rectangle 8.png" alt="">
+      <img src="./image/Rectangle 9.png" alt="">
+      <img src="./image/Rectangle 10.png" alt="">
+    </section>
+    <section>
+      <h1>Contacto</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat
         sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis
         consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed
         commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.
       </p>
-      <form action="GET">
-        <div>
-          <input type="text" placeholder="Nombre y apellido" name="name" required>
-          <hr>
-          <input type="textarea" placeholder="Detalle" name="detalle" required>
-          <hr>
-          <button>Enviar</button>
-        </div>
+      <form action="GET" class="frm">
+
+        <input type="text" placeholder="Nombre y apellido" name="name" required>
+        <input type="textarea" placeholder="Detalle" name="detalle" required>
+        <button>Enviar</button>
+
       </form>
     </section>
   </main>
